@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BB9534DC-B8D7-46F3-9335-D9AEAD877001"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADBB5F17-2B13-4952-8EDD-67684DD201A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gridsection/Component/Generic/Collection/BaseCollectionGenericView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E738018-B161-489A-A0BA-32E0916FAE97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gridsection/Component/Generic/Collection/BaseCollectionGenericView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "collectionView(_:viewForSupplementaryElementOfKind:at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "147281DC-7D45-49B5-B579-106525B8F83F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gridsection/Component/Generic/Collection/BaseCollectionGenericView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "collectionView(_:layout:referenceSizeForFooterInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "623C3833-D081-49AA-9D69-7F70531D6703"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gridsection/Component/Generic/Collection/BaseCollectionGenericView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "collectionView(_:layout:insetForSectionAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14EEDF62-7B47-4535-99FD-760CD69998E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gridsection/Component/Generic/Collection/BaseCollectionGenericView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "getMediator(for:typeOf:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14EEDF62-7B47-4535-99FD-760CD69998E6 - 313a5f59abfc4a34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gridsection.BaseCollectionGenericView.(getMediator in _5795546AAC1FF20A7365F732B9C9CCF2)(for: Swift.Array&lt;gridsection.BaseMediator&gt;, typeOf: Any) -&gt; gridsection.BaseMediator"
+                  moduleName = "gridsection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yoviekaputra/iOSProjects/gridsection/gridsection/gridsection/Component/Generic/Collection/BaseCollectionGenericView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "14EEDF62-7B47-4535-99FD-760CD69998E6 - c3604cf2fdcff4ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (gridsection.BaseMediator) -&gt; Swift.Bool in gridsection.BaseCollectionGenericView.(getMediator in _5795546AAC1FF20A7365F732B9C9CCF2)(for: Swift.Array&lt;gridsection.BaseMediator&gt;, typeOf: Any) -&gt; gridsection.BaseMediator"
+                  moduleName = "gridsection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yoviekaputra/iOSProjects/gridsection/gridsection/gridsection/Component/Generic/Collection/BaseCollectionGenericView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "61">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
