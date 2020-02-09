@@ -14,11 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("startup")
         menuVC.backgroundColor = UIColor.clear
         menuVC.mediator.onTapClosure = { [weak self] (data) in
-            if let data = data {
-                print(data.title)
-            }
+            print("asjhdkjashdkjashdjkashd")
         }
     }
 }

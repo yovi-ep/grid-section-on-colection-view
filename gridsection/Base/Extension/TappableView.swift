@@ -17,7 +17,7 @@ class TappableView: UIView {
     
     func tappable(tappedHandler: @escaping IntFunction) {
         self.tappedHandler = tappedHandler
-        //tap(UITapGestureRecognizer(target: self, action: #selector(tappableSelector)))
+        tap(UITapGestureRecognizer(target: self, action: #selector(tappableSelector)))
     }
     
     func longPress(longPressHandler: @escaping IntFunction) {

@@ -133,17 +133,14 @@
 		97ECC38923EFCB4200AF9AD9 /* gridsection */ = {
 			isa = PBXGroup;
 			children = (
+				97ECC42C23F01FDA00AF9AD9 /* App */,
+				97ECC42B23F01FBD00AF9AD9 /* Storyboard */,
 				97ECC3CD23EFCC6800AF9AD9 /* Base */,
 				97ECC3E223EFCC6800AF9AD9 /* Component */,
 				97ECC3BE23EFCB9700AF9AD9 /* Cell */,
 				97ECC3C323EFCB9700AF9AD9 /* Models */,
 				97ECC3BA23EFCB9700AF9AD9 /* View */,
-				97ECC38A23EFCB4200AF9AD9 /* AppDelegate.swift */,
-				97ECC38C23EFCB4200AF9AD9 /* SceneDelegate.swift */,
-				97ECC38E23EFCB4200AF9AD9 /* ViewController.swift */,
-				97ECC39023EFCB4200AF9AD9 /* Main.storyboard */,
 				97ECC39323EFCB4400AF9AD9 /* Assets.xcassets */,
-				97ECC39523EFCB4400AF9AD9 /* LaunchScreen.storyboard */,
 				97ECC39823EFCB4400AF9AD9 /* Info.plist */,
 			);
 			path = gridsection;
@@ -170,6 +167,7 @@
 		97ECC3BA23EFCB9700AF9AD9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				97ECC38E23EFCB4200AF9AD9 /* ViewController.swift */,
 				97ECC3BB23EFCB9700AF9AD9 /* MenuHeaderMediator.swift */,
 				97ECC3BC23EFCB9700AF9AD9 /* MenuMediator.swift */,
 				97ECC3BD23EFCB9700AF9AD9 /* MenuCV.swift */,
@@ -241,6 +239,24 @@
 				97ECC40123EFCC6800AF9AD9 /* BaseCollectionMediatorCell.swift */,
 			);
 			path = Collection;
+			sourceTree = "<group>";
+		};
+		97ECC42B23F01FBD00AF9AD9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				97ECC39023EFCB4200AF9AD9 /* Main.storyboard */,
+				97ECC39523EFCB4400AF9AD9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		97ECC42C23F01FDA00AF9AD9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				97ECC38A23EFCB4200AF9AD9 /* AppDelegate.swift */,
+				97ECC38C23EFCB4200AF9AD9 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
