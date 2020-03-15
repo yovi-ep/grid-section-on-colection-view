@@ -17,6 +17,11 @@ class BaseCollectionGenericView: UICollectionView {
     
     private var paddingSize:CGFloat = 16
     
+    struct KIND {
+        static let HEADER = "UICollectionElementKindSectionHeader"
+        static let FOOTER = "UICollectionElementKindSectionFooter"
+    }
+    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         initView()
@@ -39,12 +44,12 @@ class BaseCollectionGenericView: UICollectionView {
     
     func register(header mediator: BaseMediator) {
         listMediatorHeader.append(mediator)
-        register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: mediator.identifier)
+        register(UICollectionReusableView.self, forSupplementaryViewOfKind: KIND.HEADER, withReuseIdentifier: mediator.identifier)
     }
     
     func register(footer mediator: BaseMediator) {
         listMediatorFooter.append(mediator)
-        register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: mediator.identifier)
+        register(UICollectionReusableView.self, forSupplementaryViewOfKind: KIND.FOOTER, withReuseIdentifier: mediator.identifier)
     }
     
     func setData(listOf sections: [SectionData]) {
@@ -92,7 +97,7 @@ extension BaseCollectionGenericView: UICollectionViewDataSource {
         }
         
         switch kind {
-        case UICollectionView.elementKindSectionHeader:
+        case KIND.HEADER:
             let mediator = getMediatorHeader(typeOf: newData)
             let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: mediator.identifier, for: indexPath)
             
@@ -103,7 +108,7 @@ extension BaseCollectionGenericView: UICollectionViewDataSource {
             }
             
             return header
-        case UICollectionView.elementKindSectionFooter:
+        case KIND.FOOTER:
             let mediator = getMediatorFooter(typeOf: newData)
             let footer = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: mediator.identifier, for: indexPath)
             
